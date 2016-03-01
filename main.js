@@ -20,8 +20,6 @@ function getMovieDetails(id){
 			dataType: "jsonp",
 			jsonpCallback: "movies",
 			success: function(data) {
-				// alert("Something happened");
-				// console.log(data);
 				var posterUrl = data.Poster;
 				var moviePosterImg = moviePoster(posterUrl);
 				$('.movie-detail').empty().append(moviePosterImg);

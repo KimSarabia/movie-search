@@ -1,11 +1,11 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700);
 [class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
 }
 
 *, div {
   box-sizing: border-box;
+
 }
 
 html, body {
@@ -69,7 +69,7 @@ html, body {
   transition: all 0.05s ease-in-out;
   visibility: visible;
   opacity: 1;
-  background-image: url("http://gmrgo.github.io/gmrui/img/logo.png");
+  background-image: url("http://i.imgur.com/XwupTQg.png");
   background-position: 0 center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -174,4 +174,6 @@ html, body {
 .movie-detail {
   float: right;
   color: #FFFFFF;
+  max-width: 100px;
+
 }
